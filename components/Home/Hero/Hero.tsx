@@ -12,7 +12,7 @@ const Hero = () => {
       
       <div className="relative z-10 flex flex-col items-center">
         <Image 
-          src="/images/q1.png" 
+          src="/images/q1.JPG" 
           alt="Hero Image" 
           width={150} 
           height={150} 
@@ -23,11 +23,11 @@ const Hero = () => {
             Creating web products, <br /> brands, <span className="text-cyan-200"> and experiences.</span> 
         </h1>
         <h2 data-aos="fade-up" data-aos-delay="400" className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
-            Hi! I&apos;m Samuel - A Passionate 
+            Hi! I&apos;m Nana Araba - A Passionate 
             <span className="text-cyan-200 font-bold">
                 <Typewriter 
                     options={{
-                        strings: ["Frontend Developer", "Backend Developer", "Web Developer",],
+                        strings: ["Machine Learning Engineer", "Data Analysis Expert", "Full Stack Developer",],
                         autoStart: true,
                         loop: true,
                         delay: 75,

@@ -4,9 +4,10 @@ import Image from "next/image";
 type Props = {
   image: string;
   title: string;
+  tags: string[];
 };
 
-const BlogCard = ({image,title}: Props) => {
+const BlogCard = ({image, title, tags}: Props) => {
   return <div>
     <Image 
         src={image} 
@@ -22,16 +23,12 @@ const BlogCard = ({image,title}: Props) => {
     cursor-pointer transition-all duration-300">
         {title}
     </h1>
-    <div className="mt-4 flex gap-2 items-center">
-        <p className="px-4 py-1.5 bg-blue-950 text-white text-sm sm:text-base font-bold rounded-full">
-            React
-        </p>
-        <p className="px-4 py-1.5 bg-blue-950 text-white text-sm sm:text-base font-bold rounded-full">
-            Next JS
-        </p>
-        <p className="px-4 py-1.5 bg-blue-950 text-white text-sm sm:text-base font-bold rounded-full">
-            Tailwind
-        </p>
+    <div className="mt-4 flex gap-2 items-center flex-wrap">
+        {tags.map((tag, index) => (
+          <p key={index} className="px-4 py-1.5 bg-pink-900/80 text-pink-200 text-sm sm:text-base font-bold rounded-full">
+            {tag}
+          </p>
+        ))}
     </div>
   </div>;
 };

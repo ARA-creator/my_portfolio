@@ -11,7 +11,7 @@ const font= Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Samuel Portfolio | Next.js 15",
+  title: "Nana Araba Portfolio | Next.js 15",
   description: "Portfolio built with Next.js 15",
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} antialiased bg-[#0d0d1f]`}
+        className={`${font.className} antialiased bg-gradient-to-br from-pink-900 via-purple-900 to-rose-800`}
       >
         <ResponsiveNav />
         {children}

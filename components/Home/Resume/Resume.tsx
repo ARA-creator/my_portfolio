@@ -20,8 +20,8 @@ const Resume = () => {
           >
             <ResumeCard
               icon={FaCodepen}
-              role="Full-Stack Developer"
-              description="Built and maintained scalable web applications using both front-end and back-end technologies."
+              role="Business Analyst"
+              description="Analyzed business requirements and translated them into technical solutions to enhance operational efficiency."
             />
             <ResumeCard
               icon={FaReact}
@@ -54,16 +54,16 @@ const Resume = () => {
             />
             <ResumeCard
               icon={BiBadge}
-              role="BA. Information Studies"
+              role="BA. Political Science"
               date="Aug, 2018 – Oct, 2022"
               description="University of Ghana, Legon"
             />
 
             <ResumeCard
               icon={BiBadge}
-              role="ISC2 Certified in Cybersecurity (CC)"
+              role="Special Package for Social Sciences"
               date="Jan, 2025"
-              description="ISC2"
+              description="SPSS Certification from University of Ghana"
             />
 
           </div>

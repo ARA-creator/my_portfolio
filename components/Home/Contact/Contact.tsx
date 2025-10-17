@@ -20,13 +20,13 @@ const Contact = () => {
             <div className="flex items-center space-x-3 mb-4">
               <BiPhone className="w-9 h-9 text-cyan-300" />
               <p className="text-xl font-bold text-gray-400">
-                +233 25 680 0729
+                +233 54 723 1246
               </p>
             </div>
             <div className="flex items-center space-x-3 mb-4">
               <BiEnvelope className="w-9 h-9 text-cyan-300" />
               <p className="text-xl font-bold text-gray-400">
-                samkodi91@gmail.com
+                neshun737@gmail.com
               </p>
             </div>
             <div className="flex items-center space-x-3 mb-4">

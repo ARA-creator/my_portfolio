@@ -15,7 +15,8 @@ const Blog = () => {
         >
           <BlogCard 
           image="/images/b1.jpg" 
-          title="Learn how to build an amazing portfolio website using next.js"
+          title="Building Predictive Models: A Complete Guide to Machine Learning with Python"
+          tags={["Python", "Machine Learning", "TensorFlow"]}
         />
         </div>
         <div
@@ -25,7 +26,8 @@ const Blog = () => {
         >
           <BlogCard 
           image="/images/b2.jpg" 
-          title="Learn how to build an amazing blog website using next.js"
+          title="From Data to Insights: How Business Analytics Drives Strategic Decision Making"
+          tags={["Business Analysis", "Data Analytics", "Strategy"]}
         />
         </div>
         <div
@@ -35,7 +37,8 @@ const Blog = () => {
         >
           <BlogCard 
           image="/images/b3.jpg" 
-          title="Learn how to build an amazing social media website using next.js"
+          title="Building Modern Web Applications with React and Next.js: A Developer's Journey"
+          tags={["React", "Next.js", "Web Development"]}
         />
         </div>
       </div>
